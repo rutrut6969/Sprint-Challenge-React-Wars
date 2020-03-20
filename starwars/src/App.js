@@ -28,7 +28,7 @@ const App = () => {
       })
       .catch(err => console.log(err));
   }, []);
-  // console.log(name);
+  console.log(name);
   return (
     <AppStyle className='App'>
       <h1 className='Header'>React Wars</h1>
